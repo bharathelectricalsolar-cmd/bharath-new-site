@@ -6,138 +6,272 @@
 <title>BHARATH CONSTRUCTIONS</title>
 
 <style>
-body{
+
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
 font-family:Arial,sans-serif;
 background:#f4f4f4;
+line-height:1.6;
 }
+
 header{
-background:#0a7d2e;
-color:white;
-padding:30px;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("construction.jpg");
+background-size:cover;
+background-position:center;
+color:#fff;
+padding:70px 20px;
 text-align:center;
 }
+
+header img{
+width:100px;
+margin-bottom:15px;
+border-radius:50%;
+background:white;
+padding:8px;
+}
+
+header h1{
+font-size:42px;
+}
+
+header p{
+margin-top:15px;
+font-size:20px;
+}
+
 nav{
 background:#222;
 padding:15px;
+position:sticky;
+top:0;
+z-index:1000;
 text-align:center;
 }
+
 nav a{
 color:white;
 text-decoration:none;
 margin:15px;
 font-weight:bold;
+font-size:18px;
 }
+
+nav a:hover{
+color:#00ff66;
+}
+
 .hero{
-padding:60px 20px;
-text-align:center;
 background:white;
+padding:70px 20px;
+text-align:center;
 }
+
 .hero h2{
+font-size:40px;
 color:#0a7d2e;
+margin-bottom:20px;
 }
+
+.hero p{
+font-size:22px;
+max-width:900px;
+margin:auto;
+}
+
 .btn{
+display:inline-block;
+margin-top:30px;
 background:#0a7d2e;
 color:white;
-padding:12px 25px;
+padding:15px 35px;
 text-decoration:none;
-border-radius:5px;
+font-size:20px;
+border-radius:8px;
+transition:.3s;
 }
-.services{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-padding:20px;
+
+.btn:hover{
+background:#066620;
+transform:scale(1.05);
 }
-.card{
-background:white;
-width:260px;
-margin:15px;
-padding:20px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,.2);
+
+.container{
+width:90%;
+margin:auto;
+padding:60px 0;
 }
-footer{
-background:#222;
-color:white;
+
+.section-title{
 text-align:center;
-padding:20px;
-margin-top:30px;
+font-size:36px;
+color:#0a7d2e;
+margin-bottom:40px;
 }
-</style>
-</head>
 
-<body>
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  <section id="services" class="container">
 
-<header>
-<h1>BHARATH CONSTRUCTIONS</h1>
-<p>Building the Future with Quality, Safety & Trust</p>
-</header>
+<h2 class="section-title">Our Services</h2>
 
-<nav>
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-</nav>
-
-<section id="home" class="hero">
-<h2>Welcome to BHARATH CONSTRUCTIONS</h2>
-<p>Construction, Solar Installation, LT & HT Line Erections, Transformer Installation, DP Works & Electrical Contracting.</p>
-<br>
-<a class="btn" href="#contact">Contact Us</a>
-</section>
-
-<section id="services" class="services">
+<div class="cards">
 
 <div class="card">
-<h3>Construction Works</h3>
-<p>Residential, Commercial & Industrial Projects.</p>
+<h3>🏗 Construction Works</h3>
+<p>Residential, Commercial & Industrial Construction Projects.</p>
 </div>
 
 <div class="card">
-<h3>Solar Installation</h3>
-<p>Complete Solar Installation & Maintenance.</p>
+<h3>☀ Solar Installation</h3>
+<p>On-Grid, Off-Grid & Industrial Solar Power Systems.</p>
 </div>
 
 <div class="card">
-<h3>LT & HT Line Erections</h3>
-<p>Professional Electrical Line Works.</p>
+<h3>⚡ LT & HT Line Works</h3>
+<p>Professional LT & HT Line Erection and Maintenance.</p>
 </div>
 
 <div class="card">
-<h3>Transformer Installation</h3>
-<p>Supply & Installation Services.</p>
+<h3>🔌 Transformer Installation</h3>
+<p>Installation, Testing & Commissioning of Transformers.</p>
 </div>
 
 <div class="card">
-<h3>DP Works</h3>
-<p>Reliable DP Works for Industries.</p>
+<h3>🏢 DP Works</h3>
+<p>DP Structure Installation and Electrical Infrastructure.</p>
 </div>
 
 <div class="card">
-<h3>Electrical Contracting</h3>
-<p>Electrical Solutions for New Companies.</p>
+<h3>💡 Electrical Contracting</h3>
+<p>Complete Electrical Contract Works for Residential & Industrial Projects.</p>
+</div>
+
 </div>
 
 </section>
 
-<section id="about" style="padding:40px;text-align:center;background:#fff;">
-<h2>About Us</h2>
-<p>BHARATH CONSTRUCTIONS provides Construction, Solar & Electrical services with quality, safety and customer satisfaction.</p>
-</section>
+<section id="about" class="container">
 
-<section id="contact" style="padding:40px;text-align:center;background:#e8f5e9;">
-<h2>Contact Us</h2>
+<h2 class="section-title">About Us</h2>
+
+<div class="card">
+
 <p>
-📞 +91 9951494320<br><br>
-📧 bharathelectricalsolar@gmail.com<br><br>
-📍 Bhaskar Studio, Kalamandir Center, Chilakaluripet
+
+BHARATH CONSTRUCTIONS is a trusted company specializing in
+Construction, Solar Installations, LT & HT Line Works,
+Transformer Installations, DP Works and Electrical Contracting.
+
+We are committed to delivering quality work, maintaining safety
+standards and completing every project on time.
+
 </p>
+
+</div>
+
 </section>
 
-<footer>
-© 2026 BHARATH CONSTRUCTIONS. All Rights Reserved.
+<section class="container">
+
+<h2 class="section-title">Why Choose Us?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>✔ Experienced Team</h3>
+<p>Highly skilled professionals with years of experience.</p>
+</div>
+
+<div class="card">
+<h3>✔ Quality Work</h3>
+<p>We use quality materials and follow industry standards.</p>
+</div>
+
+<div class="card">
+<h3>✔ On Time Delivery</h3>
+<p>Projects completed within the promised schedule.</p>
+</div>
+
+<div class="card">
+<h3>✔ Affordable Pricing</h3>
+<p>Competitive pricing with customer satisfaction.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<h2 class="section-title">Our Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="project1.jpg" style="width:100%;border-radius:10px;">
+</div>
+
+<div class="card">
+<img src="project2.jpg" style="width:
+    <section id="contact" class="container">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="card" style="text-align:center;">
+
+<h3>BHARATH CONSTRUCTIONS</h3>
+
+<p>📞 +91 XXXXXXXXXX</p>
+
+<p>📧 your@email.com</p>
+
+<p>📍 Your Address, Andhra Pradesh</p>
+
+<br>
+
+<a href="tel:+91XXXXXXXXXX" class="btn">📞 Call Now</a>
+
+<a href="https://wa.me/91XXXXXXXXXX" class="btn" style="background:#25D366;margin-left:10px;">WhatsApp</a>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<h2 class="section-title">Location</h2>
+
+<div class="card">
+
+<iframe
+src="https://www.google.com/maps?q=Vijayawada&output=embed"
+width="100%"
+height="350"
+style="border:0;border-radius:10px;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+
+</div>
+
+</section>
+
+<footer style="background:#222;color:white;text-align:center;padding:30px;margin-top:40px;">
+
+<h3>BHARATH CONSTRUCTIONS</h3>
+
+<p>Construction | Solar | LT & HT | Transformer | Electrical</p>
+
+<p>© 2025 BHARATH CONSTRUCTIONS. All Rights Reserved.</p>
+
 </footer>
 
 </body>
